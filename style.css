@@ -1,0 +1,201 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+.container {
+    height: 100vh;
+    width: 100%;
+    background-color: #dedede;
+    position: fixed;
+}
+
+.heading {
+    /* background-color: red; */
+    /* width: 1000px; */
+    max-width: 55vw;
+    margin: 5vh 5vw;
+    height: 40vh;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.heading .title h1 {
+    font-size: 7vw;
+    font-weight: 300;
+}
+
+.seperator {
+    display: flex;
+    margin-bottom: 5px;
+    /* background-color: blueviolet; */
+    width: 45vw;
+    justify-content: center;
+    align-items: center;
+}
+
+.cross {
+    font-size: large;
+}
+
+.line {
+    background-color: black;
+    height: 1.5px;
+    width: 250px;
+    margin: 0 15px;
+}
+
+.slogan {
+    font-family: 'Chilanka', cursive;
+    /* background-color: blueviolet; */
+    width: 45vw;
+    display: flex;
+    font-size: 1.5vw;
+    font-weight: 200;
+    justify-content: center;
+    align-items: center;
+}
+
+.s2 {
+    /* margin-left: 20px; */
+    /* background-color: blue; */
+    width: 200px;
+    padding-left: 30px;
+    margin: 0px 40px;
+}
+
+.s1 {
+    /* margin-right: 20px; */
+    /* background-color: green; */
+    width: 200px;
+    padding-left: 30px;
+    margin: 0px 40px;
+}
+
+.episodes {
+    /* background-color: aqua; */
+    height: 35vh;
+    width: 60vw;
+    margin: 5vh 5vw;
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 1;
+}
+
+.latest-episode {
+    /* background-color: coral; */
+    width: 60%;
+    margin: 10px;
+    height: 35vh;
+    padding: 15px;
+    background-color: #e2e2e2;
+    border-radius: 10px;
+}
+
+.latest-episode h3 {
+    font-size: 3vw;
+    font-weight: 600;
+}
+
+.audio {
+    background-color: #b6b6b6;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.audio-description {
+    background-color: #cccbcb;
+    margin-top: 10px;
+    height: 15vh;
+    padding: 5px;
+    border-radius: 8px;
+}
+
+.previous-episode {
+    /* background-color: coral; */
+    margin: 10px;
+    background-color: #e2e2e2;
+    border-radius: 10px;
+    padding: 15px;
+    width: 40%;
+    height: 35vh;
+}
+
+.previous-episode h4 {
+    font-size: 2vw;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.explore {
+    /* background-color: black; */
+    margin-top: 20px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.explore-btn {
+    background-color: #b6b6b6;
+    border: none;
+    width: 15vw;
+    color: rgb(233, 233, 233);
+    padding: 10px;
+    font-size: 2vw;
+    border-radius: 50px;
+}
+
+.social-media {
+    position: absolute;
+    /* background-color: black; */
+    width: 15vw;
+    height: 10vh;
+    right: 0;
+    bottom: 0;
+    z-index: 5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-media a {
+    text-decoration: none;
+    color: initial;
+    padding-right: 25px;
+}
+
+.profile {
+    display: flex;
+    width: 20vw;
+    height: 10vh;
+    /* background-color: red; */
+}
+
+.profile img {
+    height: 90%;
+}
+
+.social-media img {
+    height: 90%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.mic {
+    height: 100%;
+    position: fixed;
+    z-index: -5;
+    right: 5vw;
+    pointer-events: none;
+}
